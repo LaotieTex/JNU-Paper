@@ -1,4 +1,6 @@
 *.pdf
+*.out
+*.xdv
 *.log
 *.aux
 *.bbl
@@ -7,6 +9,7 @@
 *.fdb_latexmk
 *.fls
 *.synctex
+*.synctex(busy)
 *.synctex.gz
 *.gz
 *.toc

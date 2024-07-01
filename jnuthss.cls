@@ -19,7 +19,7 @@
 \LoadClass[
 a4paper,
 openright,
-fontset    = ubuntu,
+fontset    = windows,
 zihao      = -4,
 linespread = 1.625,
 % LaTeX 1.625 倍行距约等于 Wrod 上 1.5 倍行距。
