@@ -19,7 +19,7 @@
 \LoadClass[
 a4paper,
 openright,
-fontset    = macnew,
+fontset    = ubuntu,
 zihao      = -4,
 linespread = 1.625,
 % LaTeX 1.625 倍行距约等于 Wrod 上 1.5 倍行距。
@@ -30,7 +30,7 @@ linespread = 1.625,
 
 \RequirePackage{mathptmx}
 % 数学公式字体 Times New Roman。
-\setmainfont{Times New Roman}
+% \setmainfont{Times New Roman}
 % 英文字体用 Times New Roman。
 
 
