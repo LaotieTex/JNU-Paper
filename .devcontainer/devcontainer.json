@@ -1,7 +1,7 @@
 {
     "name": "TeX Live base",
-    // "dockerFile": "Dockerfile",
-    "image": "paperist/texlive-ja",
+    "dockerFile": "Dockerfile",
+    // "image": "paperist/texlive-ja",
     "customizations": {
         "vscode": {
             "extensions": ["james-yu.latex-workshop"]

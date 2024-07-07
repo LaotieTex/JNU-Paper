@@ -1,7 +1,14 @@
-FROM paperist/texlive-ja
 
-ENV DEBIAN_FRONTEND=dialog \
-    LANG=zh_CN.UTF-8 \
-    LC_ALL=zh_CN.UTF-8
+FROM texlive/texlive:latest-doc
+WORKDIR /workdir
 
-RUN tlmgr install gbt7714
+RUN apt-get update \
+  && apt-get install \
+  libfontconfig \
+  fonts-arphic-bkai00mp \
+  fonts-arphic-bsmi00lp \
+  fonts-arphic-gbsn00lp \
+  fonts-arphic-gkai00mp \
+  fonts-arphic-ukai \
+  fonts-arphic-uming \
+  fonts-noto-cjk
