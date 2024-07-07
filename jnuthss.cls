@@ -19,7 +19,7 @@
 \LoadClass[
 a4paper,
 openright,
-fontset    = ubuntu,
+fontset    = mac,
 zihao      = -4,
 linespread = 1.625,
 % LaTeX 1.625 倍行距约等于 Wrod 上 1.5 倍行距。
@@ -34,8 +34,8 @@ linespread = 1.625,
 % 英文字体用 Times New Roman。
 
 
-\setCJKfamilyfont{lishu}[Path = ./misc/]{simli.ttf}
-\newcommand{\lishu}{\CJKfamily{lishu}}
+% \setCJKfamilyfont{lishu}[Path = ./misc/]{simli.ttf}
+% \newcommand{\lishu}{\CJKfamily{lishu}}
 % 配置首页要用到的隶书字体，因为 Ubuntu 是没有隶书字体的。
 
 
