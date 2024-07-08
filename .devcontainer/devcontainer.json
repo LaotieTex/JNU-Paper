@@ -4,7 +4,10 @@
     // "image": "paperist/texlive-ja",
     "customizations": {
         "vscode": {
-            "extensions": ["james-yu.latex-workshop"]
+            "extensions": [
+                "james-yu.latex-workshop",
+                "Alibaba-Cloud.tongyi-lingma"
+            ]
         }
     }
 }

@@ -10,15 +10,5 @@
     "[latex]": {
         "editor.defaultFormatter": "James-Yu.latex-workshop"
     },
-
-    "latex-workshop.docker.enabled": false,
-    // "latex-workshop.docker.image.latex": "paperist/texlive-ja:latest",
-    // "latex-workshop.latex.tools": [
-    //   {
-    //     "name": "latexmk",
-    //     "command": "latexmk",
-    //     "args": ["-gg", "%DOC%"]
-    //   }
-    // ],
     "latex-workshop.latex.autoClean.run": "onBuilt"
 }
