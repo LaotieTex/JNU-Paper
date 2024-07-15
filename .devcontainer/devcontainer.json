@@ -1,7 +1,6 @@
 {
-    "name": "TeX Live base",
-    "dockerFile": "Dockerfile",
-    // "image": "paperist/texlive-ja",
+    "name": "TeX Live",
+    "image": "laotie255/texlive-zh:latest",
     "customizations": {
         "vscode": {
             "extensions": [

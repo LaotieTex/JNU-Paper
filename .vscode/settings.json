@@ -1,4 +1,6 @@
 {
+    "latex-workshop.docker.enabled": true,
+    "latex-workshop.docker.image.latex": "laotie255/texlive-zh:latest",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk (xelatex)",
