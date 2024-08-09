@@ -1,11 +1,12 @@
 {
     "name": "TeX Live",
-    "image": "laotie255/texlive-zh:latest",
+    "dockerFile": "Dockerfile",
+    // "image": "laotie255/texlive-zh:latest",
     "customizations": {
         "vscode": {
             "extensions": [
                 "james-yu.latex-workshop",
-                "Alibaba-Cloud.tongyi-lingma"
+                "MarsCode.marscode-extension"
             ]
         }
     }

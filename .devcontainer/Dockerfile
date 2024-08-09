@@ -1,0 +1,1 @@
+FROM laotie255/texlive-zh:latest
